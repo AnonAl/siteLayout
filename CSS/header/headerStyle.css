@@ -1,0 +1,83 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 87px;
+    background-color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat, cursive;
+    font-size: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+#rectangle {
+    position: absolute;
+    left: 180px;
+    top: -1px;
+}
+
+#Lari {
+    position: absolute;
+    left: 195px;
+    top: 0;
+}
+
+#container1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 100px;
+}
+
+#container1 a:hover {
+    color: #DC0B3F;
+    border-bottom: 3px solid #DC0B3F
+}
+
+#links {
+    margin-left: 260px;
+}
+
+#container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.contactData {
+    display: inline-flex;
+    margin-right: 30px;
+    font-family: Montserrat, sans-serif;
+}
+
+.contactData img {
+    padding-right: 10px;
+}
+
+#contact {
+    display: inline-block;
+    text-align: right;
+    padding-top: 20px;
+}
+
+#contact span {
+    font-weight: 800;
+}
+
+#contact a {
+    color: #DC0B3F;
+    border-bottom: 2px solid #DC0B3F;
+}
+
+
+
+
+
+
+

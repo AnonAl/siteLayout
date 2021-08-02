@@ -1,0 +1,80 @@
+
+#slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#cherry {
+    padding-top: 140px;
+    padding-right: 70px;
+    flex: 0 0 auto;
+}
+
+#images {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: 1 0 auto;
+}
+
+#images img {
+    position: absolute;
+}
+
+/*#iriska {*/
+/*    position: absolute;*/
+/*    z-index: 1;*/
+/*    margin-left: 10px;*/
+/*}*/
+
+/*#strawberry {*/
+/*    position: absolute;*/
+/*    z-index: 0;*/
+/*}*/
+
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex: 0 0 auto;
+}
+
+#text span {
+    font-family: Airfool, cursive;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    width: 100%;
+    height: 100%;
+    padding-top: 140px;
+}
+
+#text ul {
+    list-style-image: url("../../images/main/slider/circle_check.jpg");
+    padding-top: 80px;
+    padding-bottom: 110px;
+    padding-left: 30px;
+    font-family: Pinkment, cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: #3F3E3E;
+}
+
+#instagram {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#instagram a {
+    padding-left: 10px;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #DC0B3F;
+    text-decoration: none;
+}

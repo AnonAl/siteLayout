@@ -1,0 +1,68 @@
+#about_company {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+}
+
+img[src*="iced-tea"] {
+    padding-bottom: 400px;
+}
+
+
+#companyInf {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#inf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid #FFC001;
+    border-radius: 40px;
+    width: 1150px;
+
+}
+
+#inf p {
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 400;
+    padding: 20px 70px 0 70px;
+}
+
+#companyInf #name {
+    color: #3F3E3E;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+#inf h3 {
+    font-weight: 900;
+    color: #DC0B3F;
+    font-size: 40px;
+    padding-left: 70px;
+}
+
+#inf a {
+    border: 2px solid #DC0B3F;
+    box-sizing: border-box;
+    border-radius: 45px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #DC0B3F;
+}
+#inf div:nth-child(n+3) {
+    padding-left: 580px;
+    padding-top: 20px;
+}

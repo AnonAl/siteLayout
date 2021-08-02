@@ -1,0 +1,113 @@
+#cooperation {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    background-color: #FFC001;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#cooperation div:first-child {
+    margin-top: 60px;
+}
+
+#cooperation div {
+    padding-left: 185px;
+}
+
+#suggest {
+    font-size: 30px;
+    font-weight: 900;
+    color: #3F3E3E;
+}
+
+#cooperation label:nth-child(n+1) {
+    color: #3F3E3E;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#suggestion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+
+#suggestion span {
+    font-size: 25px;
+    font-weight: 900;
+    color: #DC0B3F;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 830px;
+}
+
+form input {
+    border-radius: 30px;
+    width: 270px;
+    height: 55px;
+    padding-left: 20px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background: #FFFFFF no-repeat bottom 17px right 25px;
+}
+
+form button {
+    background: #DC0B3F;
+    box-shadow: 0 4px 13px #DC0B3F;
+    border-radius: 45px;
+    width: 200px;
+    height: 65px;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 5px 20px;
+}
+
+#suggestion div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 15px;
+    color: #3F3E3E;
+    padding-left: 130px;
+    padding-bottom: 20px;
+}
+
+#suggestion div input {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #3F3E3E;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+form input:nth-child(n+1) {
+    background-image: url("../../images/main/cooperation/2321976658144.svg");
+}
+
+form input:nth-child(n+2) {
+    background-image: url("../../images/main/cooperation/Vector.svg");
+}

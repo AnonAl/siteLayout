@@ -1,0 +1,141 @@
+#contacts {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    color: #3F3E3E;
+    font-style: normal;
+    margin: 70px 0;
+}
+
+#contactData {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#contactsInform {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.cont h5 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.cont p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #3F3E3E;
+    /*line-height: 19px;*/
+    vertical-align: top;
+}
+
+#contactsInform .cont {
+    margin-right: 80px;
+}
+
+#contactsInform .cont:last-child div:last-child {
+    margin-top: 35px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#contacts form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 367px;
+    height: 512px;
+    background-color: #FFC001;
+    border-radius: 40px;
+}
+
+#contacts form textarea {
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 18px;
+    outline: none;
+}
+
+#contacts span {
+    font-weight: 900;
+    font-size: 30px;
+    color: #3F3E3E;
+}
+
+#contactData div:last-child span {
+    font-weight: 900;
+    font-size: 35px;
+    color: #DC0B3F;
+}
+
+#questions p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #6A6A6A;
+    padding-top: 20px;
+}
+#form {
+    margin-left: 60px;
+    margin-top: 40px;
+}
+#form button {
+    background: #DC0B3F;
+    box-shadow: 0 4px 13px #DC0B3F;
+    border-radius: 45px;
+    width: 290px;
+    height: 65px;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 5px 20px;
+}
+
+#form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 15px;
+    color: #3F3E3E;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+/*#form div > div {*/
+/*    background-color: #FFC001;*/
+/*}*/
+
+#form input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #3F3E3E;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+

@@ -1,0 +1,139 @@
+#production {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+}
+
+#production span {
+    font-family: Montserrat, serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+    color: #3F3E3E;
+    padding-left: 180px;
+}
+
+#products {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Montserrat, serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 50px;
+    padding-left: 160px;
+}
+
+#products a {
+    text-decoration: none;
+    color: #3F3E3E;
+    border: 1px solid #B9B9B9;
+    border-radius: 40px;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+#products a:hover {
+    color: white;
+    background-color: #FFC001;
+}
+
+#prodData {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+#prodData div:first-child {
+    padding-left: 220px;
+}
+
+#descibeProd {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 50px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+}
+
+#descibeProd h3 {
+    font-weight: 900;
+    font-size: 40px;
+    color: #3F3E3E;
+}
+
+#descibeProd label {
+    font-weight: 600;
+    font-size: 17px;
+    color: #9B9B9B;
+    margin-bottom: 10px;
+}
+
+#descibeProd p {
+    font-family: Montserrat, serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #000000;
+    line-height: 19px;
+    margin-bottom: 30px;
+}
+
+#descibeProd li {
+    font-weight: 500;
+    font-size: 15px;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+#descibeProd ul {
+    margin-bottom: 30px;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#about span {
+    font-weight: 800;
+    font-size: 18px;
+    padding-left: 0;
+}
+
+#about label {
+    color: #DC0B3F;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#about div:first-child {
+    padding-left: 0;
+}
+
+#about div:last-child {
+    padding-left: 140px;
+    margin-top: 15px;
+}
+
+#about div:last-child a {
+    background: #DC0B3F;
+    box-shadow: 0 4px 13px #F81F55;
+    border-radius: 45px;
+    padding: 15px 40px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+

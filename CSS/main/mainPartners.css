@@ -1,0 +1,36 @@
+#partners {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    margin-bottom: 120px;
+}
+
+#partners span {
+    color: #3F3E3E;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 50px;
+    padding-left: 185px;
+}
+
+#iconPartners {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
+#iconPartners button {
+    border: none;
+    background-color: white;
+}
+
+#iconPartners img {
+    padding: 9px;
+}
